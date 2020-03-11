@@ -1,21 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Rectangle r = new Rectangle(8,10, "rrr!");
-        System.out.println("Площадь прямоугольника =" + r.area());
+        Human human1 = new Human("Timur", 180, 76, 26, "Tatar");
+        human1.introduce();
+        human1.eat("shaverma");
+        human1.walk();
     }
-
-    void championship() {
-        Champion champ1 = new Champion(1,2,3);
-        Champion champ2 = new Champion(4,6,7);
-        int sum = Champion.s 
-
-    }
-
-    class Cat {
-        String Name;
-        int Age;
-
-    }
-
 
 }
